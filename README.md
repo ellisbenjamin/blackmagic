@@ -1,4 +1,4 @@
-this is a branch off the jeff probe repo which hasn't seen an update in ages and for which pre-built binaries are not present anywehre and for which the 'support' page on the website is permaunderconstruction.
+this is a fork off of a fork of the blackmagick repo which hasn't seen an update in ages and for which pre-built binaries are not present anywehre and for which the 'support' page on the website is permaunderconstruction.
 
 anyhoo. the thing wouldn't build on my machine until i tweaked the makefiles.
 
