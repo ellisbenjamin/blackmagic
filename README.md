@@ -1,3 +1,15 @@
+this is a branch off the jeff probe repo which hasn't seen an update in ages and for which pre-built binaries are not present anywehre and for which the 'support' page on the website is permaunderconstruction.
+
+anyhoo. the thing wouldn't build on my machine until i tweaked the makefiles.
+
+binaries are in the /src dir
+
+dfu-util -d 1d50:6018,1d50:6017 -s0x02000:leave -D src/blackmagic.bin 
+
+should do the trick.
+
+
+
 Black Magic Probe
 =================
 
