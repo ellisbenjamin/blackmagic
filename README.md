@@ -8,6 +8,8 @@ dfu-util -d 1d50:6018,1d50:6017 -s0x02000:leave -D src/blackmagic.bin
 
 should do the trick.
 
+here's the og readme which you should probably ignore
+
 
 
 Black Magic Probe
@@ -29,6 +31,6 @@ by the microprocessor. The probe connects to a host computer using a
 standard USB interface. The user is able to control exactly what happens
 using the GNU source level debugging software, GDB.
 
---See online documentation at https://github.com/blacksphere/blackmagic/wiki
+See online documentation at https://github.com/blacksphere/blackmagic/wiki
 
-Binaries from the latest automated build are at http://builds.blacksphere.co.nz/blackmagic--
+Binaries from the latest automated build are at http://builds.blacksphere.co.nz/blackmagic
